@@ -39,7 +39,7 @@ Partial Class MainForm
         Me.lblTimerDisplay.BackColor = System.Drawing.Color.Black
         Me.lblTimerDisplay.Font = New System.Drawing.Font("Arial", 16.0!, System.Drawing.FontStyle.Bold)
         Me.lblTimerDisplay.ForeColor = System.Drawing.Color.Green
-        Me.lblTimerDisplay.Location = New System.Drawing.Point(226, 268)
+        Me.lblTimerDisplay.Location = New System.Drawing.Point(327, 150)
         Me.lblTimerDisplay.Name = "lblTimerDisplay"
         Me.lblTimerDisplay.Size = New System.Drawing.Size(140, 30)
         Me.lblTimerDisplay.TabIndex = 0
@@ -91,7 +91,7 @@ Partial Class MainForm
         'PictureBox1
         '
         Me.PictureBox1.ImageLocation = "C:\Users\agus\Documents\TEKRA\PUTRIMALLU\logo.png"
-        Me.PictureBox1.Location = New System.Drawing.Point(216, 81)
+        Me.PictureBox1.Location = New System.Drawing.Point(171, 80)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(150, 170)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -113,7 +113,7 @@ Partial Class MainForm
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.Name = "MainForm"
-        Me.Text = "PutriMallu V3 - Simple Timer"
+        Me.Text = "PutriMallu V1 - IdleToShut"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
